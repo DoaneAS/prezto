@@ -11,3 +11,5 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+alias athenaup='sudo sshfs -o "Compression=no,noappledouble,auto_cache,reconnect,ServerAliveInterval=15,ServerAliveCountMax=3,allow_other,transform_symlinks,follow_symlinks,defer_permissions,IdentityFile=/Users/asd2007/.ssh/id_rsa" asd2007@aphrodite.med.cornell.edu:/athena/elementolab/scratch/asd2007/ /mnt/athena'
